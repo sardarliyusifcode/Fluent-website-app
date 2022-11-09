@@ -1,4 +1,4 @@
-.container{
+.container1{
     width: 1280px;
     margin: 0 auto;
 }
@@ -11,29 +11,92 @@
 }
 .left-text{
     color: #999; 
+    font-size: 15px;
+    line-height: 1.95;
+    letter-spacing: 0.2px;
 }
 .right-side{
-    width: 32%;
-    margin-bottom: 15px;
+    margin-left: 120px;
+    width: 302.5px;
+    left: 1107.1px;
 }
 .header{
     font-size: 27px;
     font-weight: 700;
 }
 .right-text{
-    width: 70%;
+    width: 10   0%;
     margin-top: 25px;
     margin-bottom: 25px;
     color: #999;   
+    font-size: 15px;
+    line-height: 1.95;
+    letter-spacing: 0.2px;
 }
 .categories{
     margin-bottom: 15px;
     color: #999;    
+
+}
+.categories1{
+    color:#6E6E6E ;
 }
 .clients{
     margin-bottom: 15px;
     color: #999;    
 }
+.Clients1{
+    color:#6E6E6E ;
+}
 .tags{
     color: #999;    
+}
+.Tags1{
+    color:#6E6E6E ;
+}
+.product1{
+    width: 967.5px;
+    height: 580.5px;
+}
+.product2{
+    width: 967.5px;
+    height: 580.5px;
+}
+.product3{
+    width: 967.5px;
+    height: 806.54px;
+}
+.text and icons{
+    display: flex;
+}
+.bottom-text{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-top: 100px;
+}
+.container2{
+    width: 1280px;
+    margin: 0 auto;
+}
+.bottom-products{
+    display: flex;
+    margin-top: 60px;
+    gap: 30px;
+}
+.product4{
+    width: 302.5px;
+    height: 302.5px;
+}
+.product5{
+    width: 302.5px;
+    height: 302.5px;
+}
+.product6{
+    width: 302.5px;
+    height: 302.5px;
+}
+.product7{
+    width: 302.5px;
+    height: 302.5px;
 }
