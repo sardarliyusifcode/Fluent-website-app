@@ -1,0 +1,39 @@
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.products{
+    display: flex;
+}
+.left-side{
+    width: 68%;
+}
+.left-text{
+    color: #999; 
+}
+.right-side{
+    width: 32%;
+    margin-bottom: 15px;
+}
+.header{
+    font-size: 27px;
+    font-weight: 700;
+}
+.right-text{
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #999;   
+}
+.categories{
+    margin-bottom: 15px;
+    color: #999;    
+}
+.clients{
+    margin-bottom: 15px;
+    color: #999;    
+}
+.tags{
+    color: #999;    
+}
