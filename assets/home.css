@@ -1,0 +1,111 @@
+/* CONTAINER */
+.container{
+    width: 70%;
+    margin: 5rem auto;
+}
+/* MAIN IMG */
+.main-img{
+    background-image: url('http://wp.jmsthemes.com/jms_fluent/wp-content/uploads/2017/06/slider-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92%;
+    height: 85vh;
+    margin: 0 auto;
+    position: relative;
+}
+.main-img .content{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50% , -50%);
+}
+.main-img .content h3{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.main-img .content p{
+    margin: 2rem 0;
+    color: #535353;
+}
+.main-img .content button{
+    padding: 1rem;
+    border-radius: 15px;
+    transition: 0.5s;
+    border: 1px solid #ddd;
+}
+.main-img .content button:hover{
+    background-color: black;
+    color: #fff;
+}
+/* ABOUT US */
+.about-us{
+    text-align: center;
+}
+.about-us h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.about-us p{
+    margin: 3rem 0;
+    color: #6E6E6E;
+    line-height: 1.6;
+}
+.products .products-links{
+    display: flex;
+    gap: 15px;
+}
+.products .products-links li a{
+    font-size: 1.5rem;
+    color: #000;
+} 
+.products .products-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.products .products-images .product{
+    width: 23%;
+}
+.products .products-images .product img{
+    width: 100%;
+}
+.products .products-images .product p{
+    margin-top: 10px;
+    color: #535353;
+}
+
+/* PRODUCT ADVANTAGES */
+.product-advantages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-advantages .advantage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-advantages .advantage .icon-div{
+    width: 80px;
+    height: 80px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-advantages .advantage i{
+    font-size: 3rem;
+    color: #6E6E6E;
+}
+.product-advantages .advantage .advantage-name{
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.product-advantages .advantage p{
+    margin-bottom: 1rem;
+    color: #535353;
+}
