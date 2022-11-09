@@ -100,3 +100,13 @@
     width: 302.5px;
     height: 302.5px;
 }
+.product-names{
+    display: flex;
+    gap: 150px;
+}
+.link{
+    color: #999;
+}
+.link1{
+    color: #0E0E0E;
+}
