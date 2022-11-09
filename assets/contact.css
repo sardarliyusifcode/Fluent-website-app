@@ -27,6 +27,10 @@
     font-size: 1.5rem;
     color: rgb(101, 95, 95);
 }
+.writtings{
+width: 50%;
+
+}
 
 .main-content {
     margin-bottom: 91px;
@@ -53,6 +57,7 @@
 
 .wb-starting {
     font-family: 'Raleway', sans-serif;
+    display: flex;
 }
 
 .details {
@@ -77,4 +82,59 @@ color: #6e6e6e;
     color: #6e6e6e;
     margin-block-end: 20px;
     font-family: 'Nanum Gothic', sans-serif;
+}
+.input-your-name{
+    height: 45px;
+    padding: 0 10px;
+    border: 1px solid #F0F1F4;
+    margin-left: 30px;
+    width: 400px;
+}
+.input-email{
+    height: 45px;
+    padding: 0 10px;
+    border: 1px solid #F0F1F4;
+    margin-left: 10px;
+    width: 400px;
+}
+.input-subject{
+    height: 45px;
+    padding: 0 10px;
+    border: 1px solid #F0F1F4;
+    margin-left: 30px;
+    width: 840px;
+    margin-block-start: 50px;
+}
+.input-message{
+    height: 200px;
+    border: 1px solid #F0F1F4;
+    margin-left: 30px;
+    width: 540px;
+    margin-block-start: 50px;
+    padding: 12px 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.input-send{
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 15px;
+    display: block;
+}
+.button{
+    background-color: #000;
+    border: 1px #F0F1F4;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 840px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-block-start: 20px;
+
 }
