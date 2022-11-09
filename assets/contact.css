@@ -27,8 +27,9 @@
     font-size: 1.5rem;
     color: rgb(101, 95, 95);
 }
-.writtings{
-width: 50%;
+
+.writtings {
+    width: 50%;
 
 }
 
@@ -64,40 +65,46 @@ width: 50%;
     margin-left: 110px;
     margin-block-start: 30px;
     width: 400px;
-color: #6e6e6e;
+    color: #6e6e6e;
 }
-.head{
-   color: #6e6e6e;
-   margin-block-end: 20px;
-   font-family: 'Nanum Gothic', sans-serif;
-}
-.opening-hours{
-    margin-left: 110px;
-    margin-block-start: 30px;
-    width: 400px;
-color: #6e6e6e;
 
-}
-.op{
+.head {
     color: #6e6e6e;
     margin-block-end: 20px;
     font-family: 'Nanum Gothic', sans-serif;
 }
-.input-your-name{
+
+.opening-hours {
+    margin-left: 110px;
+    margin-block-start: 30px;
+    width: 400px;
+    color: #6e6e6e;
+
+}
+
+.op {
+    color: #6e6e6e;
+    margin-block-end: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.input-your-name {
     height: 45px;
     padding: 0 10px;
     border: 1px solid #F0F1F4;
     margin-left: 30px;
     width: 400px;
 }
-.input-email{
+
+.input-email {
     height: 45px;
     padding: 0 10px;
     border: 1px solid #F0F1F4;
     margin-left: 10px;
     width: 400px;
 }
-.input-subject{
+
+.input-subject {
     height: 45px;
     padding: 0 10px;
     border: 1px solid #F0F1F4;
@@ -105,7 +112,8 @@ color: #6e6e6e;
     width: 840px;
     margin-block-start: 50px;
 }
-.input-message{
+
+.input-message {
     height: 200px;
     border: 1px solid #F0F1F4;
     margin-left: 30px;
@@ -114,14 +122,16 @@ color: #6e6e6e;
     padding: 12px 10px;
     font-family: 'Nanum Gothic', sans-serif;
 }
-.input-send{
+
+.input-send {
     position: relative;
     min-height: 1px;
     padding-left: 0px;
     padding-right: 15px;
     display: block;
 }
-.button{
+
+.button {
     background-color: #000;
     border: 1px #F0F1F4;
     color: white;
@@ -137,4 +147,95 @@ color: #6e6e6e;
     font-family: 'Nanum Gothic', sans-serif;
     margin-block-start: 20px;
 
+}
+.communicatios{
+    
+    padding: 80px 40px 75px 40px;
+    width: 20%;
+    margin-left: 120px;
+    margin-top: 100px;
+
+margin-right: 10px;
+   
+}
+.communicatios:hover{
+    border: 1px solid #000; 
+     
+}
+.c-map{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+.map-title{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.adress{
+    font-size: 15px;
+    color: #6e6e6e;
+    font-family: 'Raleway', sans-serif;
+}
+.hotline{
+    
+    padding: 80px 40px 75px 40px;
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    margin-right: 50px;
+}
+.end-main{
+    display: flex;
+
+}
+.hotline:hover{
+    border: 1px solid #000; 
+}
+.line-title{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.line-number{
+    font-size: 15px;
+    color: #6e6e6e;
+    font-family: 'Raleway', sans-serif;
+}
+.quality-support:hover{
+    border: 1px solid #000; 
+}
+.quality-support{
+    padding: 80px 40px 75px 40px;
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 20px;
+margin-right: 120px;
+font-size: 50px;
+display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.support-title{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Nanum Gothic', sans-serif;  
+}
+.support-text{
+    font-size: 15px;
+    color: #6e6e6e;
+    font-family: 'Raleway', sans-serif;
 }
